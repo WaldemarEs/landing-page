@@ -1,0 +1,32 @@
+body {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  background-color: hsl(257, 40%, 49%);
+  background-image: url(./images/bg-desktop.svg);
+}
+header img{
+  margin: 30px auto 20px 50px;
+}
+.main {
+  display: flex;
+  align-content: center;
+  margin: 40px 50px 10px 50px;
+}
+
+.content{
+  margin: 20px 40px;
+}
+.social {
+  display: flex;
+  flex-direction: row-reverse;
+  /* aqui esta el ultimo cambio agregado*/
+  color: white;
+  font-size: 25px;
+
+}
+footer{
+  
+  margin-bottom: 20px;
+  margin-right: 30px;
+}
